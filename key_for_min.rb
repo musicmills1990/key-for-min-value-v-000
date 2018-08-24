@@ -15,6 +15,6 @@ end
       value = comp_value
       name = key_for_comp_value
     end
+  end
   return key_for_comp_value
-end
 end
