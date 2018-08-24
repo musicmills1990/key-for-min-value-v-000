@@ -5,13 +5,13 @@ def key_for_min_value(name_hash)
     if name_hash = {}
       return nil
     end
-    comparison_value = 1000
-    key_for_comparison_value = nil
+comp_value = 1000
+key_comp_value = nil
   name_hash.each do |name, value|
-      if value < comparison_value
-        comparison_value = value
-        key_for_comparison_value = name
-      end
+    if value < comp_value
+      value = comp_value
+      name = key_comp_value
     end
-    returns key_for_comparison_value
   end
+  return key_comp_value
+end
