@@ -10,8 +10,8 @@ key_for_comp_value = nil
 
   name_hash.each do |name, value|
     if value < comp_value
-      value = comp_value
-      name = key_for_comp_value
+      comp_value = value
+      key_for_comp_value = name
     end
   end
   return key_for_comp_value
