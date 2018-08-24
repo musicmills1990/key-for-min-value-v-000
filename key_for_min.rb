@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
 
-comp_value = 0
+comp_value = nil
 key_for_comp_value = nil
 
   name_hash.each do |name, value|
-    if value > comp_value
+    if value < comp_value
       value = comp_value
       name = key_for_comp_value
     end
