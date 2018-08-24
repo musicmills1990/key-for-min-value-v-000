@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     end
     comparison_value = 1000
     key_for_comparison_value = nil
-  key_for_min_value.each do |name, value|
+  name_hash.each do |name, value|
       if value < comparison_value
         comparison_value = value
         key_for_comparison_value = name
