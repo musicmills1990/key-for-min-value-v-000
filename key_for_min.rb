@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if name_hash = {}
       return nil
     end
-  name_hash.each do |name, value|
+  name_hash.each_pair do |name, value|
     if value < comp_value
       value = comp_value
       name = key_comp_value
