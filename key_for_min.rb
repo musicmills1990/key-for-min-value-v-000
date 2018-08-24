@@ -13,5 +13,5 @@ def key_for_min_value(name_hash)
         key_for_comparison_value = name
       end
     end
-    returns comparison_value
+    returns key_for_comparison_value
   end
